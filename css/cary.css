@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.banner {
+	background-color:#F3DC9B;
+	color:#010066;
+	font-variant:small-caps;
+	font-size:2em;
+}
+.motto{
+	text-align:center;
+	font-style:italic;
+}
+
+.park1{
+	width:100%;
+	height:200px;
+}
+.waverly{
+	width:100%;
+		height:400px;
+}
+
+
+.bus{
+
+	width:40%;
+	height:150px;
+}
+.downtown{
+	float:left;
+	width:60%;
+	height: 150px;
+}
+p b{
+	color: #000;
+}
+h1{
+	text-align:center;
+	background-color:#010066;
+	color: #fff;
+	font-weight:normal;
+	border:1px solid #fff;
+}
+
+.news{
+	margin-left:5px;
+	text-align:left;
+	font-size: 1.2em;
+}
+
+.news a {
+	color: #BBBBBB;
+}
+h2{
+	text-align:center;
+	color:#EFEFEF;
+}
+
+footer{
+border-top:5px solid #010066;
+background-color:#F3DC9B;	
+padding-left:10px;
+clear:both;
+text-align:center;
+position:relative;
+color:#010066;
+}
+
+
+footer img{
+position:absolute;
+top:15px;
+left:380px;
+height:40px;
+width: 40px;
+float:left;
+opacity:0.5;
+}
+
+@media screen and (max-width: 420px) {
+    footer img {
+        display: none;
+    }
+	.waverly{
+		display:none;
+	}
+}
